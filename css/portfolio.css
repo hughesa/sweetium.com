@@ -1,0 +1,68 @@
+@font-face {
+    font-family: ostrich;
+    src: url(../fonts/ostrich-sans/ostrich-regular.ttf);
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+#main {
+	background-color: none;
+	height: 100vh;
+	display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    width: 100%;
+}
+
+#block {
+	display:table !important;
+	table-layout: fixed;
+	width: 100%;
+}
+
+#grey {
+	background-color: #FFFFFF;
+	padding: 1%;
+}
+
+#arrow {
+	padding: 2% 0 2% 0;
+}
+
+#teal {
+	background-color: #7cffd1;
+	color: #525252;
+	font-family: ostrich;
+	padding: 5% 4% 4% 4%;
+	font-size: 300%;
+	letter-spacing: 3px;
+}
+
+.title {
+	padding: 5%;
+	text-align: center;
+	font-family: ostrich;
+	font-size: 300%;
+	color: #525252;
+}
+
+.captioncolor {
+	color: #525252;
+}
+
+.thumblg { 
+	max-height: 500px; 
+}
+
+.thumbsm { 
+	max-height: 150px; 
+}
+
+.thumbmd {
+	max-height: 200px;
+}
+
