@@ -3,34 +3,22 @@
     src: url(../fonts/ostrich-sans/ostrich-regular.ttf);
 }
 
-img {
+.head {
 	max-width: 100%;
     height: auto;
     width: auto;
 }
 
-#main {
-	background-color: none;
-	height: 100vh;
-	display:table-cell;
-    vertical-align:middle;
-    text-align:center;
-    width: 100%;
-}
-
-#block {
-	display:table !important;
-	table-layout: fixed;
-	width: 100%;
-}
-
 #grey {
 	background-color: #FFFFFF;
-	padding: 1%;
+	
 }
 
-#arrow {
-	padding: 2% 0 2% 0;
+#design {
+	font-family: ostrich;
+	font-size: 500%;
+	color: #7cffd1;
+	padding: 0;
 }
 
 #teal {
@@ -38,7 +26,7 @@ img {
 	color: #525252;
 	font-family: ostrich;
 	padding: 5% 4% 4% 4%;
-	font-size: 300%;
+	font-size: 200%;
 	letter-spacing: 3px;
 }
 
@@ -65,4 +53,17 @@ img {
 .thumbmd {
 	max-height: 200px;
 }
+
+.xspadding {
+	padding: 1%;
+}
+
+.thumbnail {
+	text-align: center;
+	border-width: 0 !important;
+}
+
+
+
+
 
