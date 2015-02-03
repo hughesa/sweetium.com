@@ -1,0 +1,73 @@
+@font-face {
+    font-family: poetsen;
+    src: url(../fonts/PoetsenOne/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: oxygen;
+    src: url(../fonts/oxygen/Oxygen.otf);
+}
+
+#headerimage {
+	background-image: url(../images/goalsimages/buildingsdark.png);
+	width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#businessname {
+	font-family: poetsen;
+	color: #FFFFFF;
+	font-size: 150%;
+	padding-left: 5%;
+	padding-top: 2%;
+}
+
+#tagline {
+	font-family: poetsen;
+	color: #f4db48;
+	font-size: 500%;
+	padding: 6%;
+}
+
+#info {
+	background-color: #3e3e3e;
+	font-family: oxygen;
+	font-size: 175%;
+	padding: 1%;
+	color: #f4db48;
+}
+
+#graphic {
+	background-color: #242a30;
+	max-width: 100%;
+}
+
+#footer {
+	background-color: #4d7d88;
+	font-family: poetsen;
+	font-size: 300%;
+	padding: 2%;
+	color: #FFFFFF;
+}
+
+#signup {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #3e3e3e;
+	color: #FFFFFF;
+	font-family: oxygen;
+	font-size: 150%;
+	padding: 5%;
+}
+
+.btn.sharp {
+  border-radius:0;
+  border: none;
+}
+
+.padding {
+	padding: 1%;
+}

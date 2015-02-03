@@ -1,0 +1,124 @@
+@font-face {
+    font-family: yanone;
+    src: url(../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Light.ttf);
+}
+
+p {
+	font-family: yanone;
+}
+
+li {
+	font-family: yanone;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a:link {
+    color: #434343;
+}
+
+a:visited {
+    color: #434343;
+}
+
+.col-md-2 {
+	background-color: pink;
+}
+
+#topheader {
+	font-size: 300%;
+	color: #f67262;
+	padding: 3%;
+	letter-spacing: 1px;
+}
+
+.infotext {
+	font-size: 150%;
+	color: #434343;
+	line-height: 80%;
+}
+
+#courses {
+	font-size: 150%;
+	color: #23cb9c;
+	padding: 1.5%;
+	letter-spacing: 1px;
+}
+
+#research {
+	background-color: #f67262;
+}
+
+#photo {
+	float: right;
+}
+
+#name {
+	font-size: 170%;
+	padding-bottom: 3%;
+}
+
+#rstatement {
+	color: #FFFFFF;
+	font-size: 400%;
+	letter-spacing: 2px;
+	padding: 4%;
+}
+
+#rtext {
+	color: #FFFFFF;
+	font-size: 120%;
+	letter-spacing: 1px;
+}
+
+.imgspace {
+	padding: 2%;
+}
+
+#rinterests {
+	color: #434343;
+	font-size: 400%;
+	letter-spacing: 2px;
+	padding-top: 4%;
+	text-align: left;
+}
+
+.intereststext {
+	color: #434343;
+	font-size: 120%;
+}
+
+#publications {
+	color: #434343;
+	font-size: 400%;
+	letter-spacing: 2px;
+	padding-top: 4%;
+	float: right;
+	text-align: right;
+}
+
+.graypub {
+	color: #434343;
+	font-size: 120%;
+	letter-spacing: 1px; 
+}
+
+.redpub {
+	color: #f67262;
+	font-size: 120%;
+	letter-spacing: 1px; 
+}
+
+#footer {
+	background-color: #23cb9c;
+	padding: 2%;
+}
+
+#phone {
+	color: #23cb9c;
+	font-size: 170%;
+}
